@@ -1,0 +1,41 @@
+.peter {
+  color: white;
+  background-color: #f5da81;
+  border: 2px solid #ff8000;
+  text-align: center;
+  padding: 25px;
+}
+.bottom {
+  font-style: italic;
+  color: rgb(68, 59, 59);
+}
+
+.kiste {
+  max-width: 24%;
+}
+.packaging {
+  max-width: 24%;
+}
+.treasure {
+  max-width: 24%;
+}
+.office {
+  max-width: 24%;
+}
+table,
+tr,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  height: 20px;
+}
+th {
+  text-align: center;
+  width: 120px;
+}
+label, input, select{
+    display: inline-block;
+    width: 49%;
+}
+
