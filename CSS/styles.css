@@ -58,5 +58,10 @@ nav a{
   text-decoration: none;
 }
 .logos{
-  max-width: 24px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  /* display:flex;
+  max-width: 24px; */
+
 }
