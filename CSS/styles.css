@@ -9,7 +9,7 @@
   font-style: italic;
   color: rgb(68, 59, 59);
 }
-.wrapper{
+.wrapper {
   width: 70%;
   margin: auto;
 }
@@ -37,14 +37,16 @@ th {
   text-align: center;
   width: 120px;
 }
-label, input, select{
-    display: inline-block;
-    width: 49%;
+label,
+input,
+select {
+  display: inline-block;
+  width: 49%;
 }
-.bestari{
+.bestari {
   font-family: Arial, Helvetica, sans-serif;
 }
-nav ul{
+nav ul {
   padding: 0;
   text-align: center;
   margin: 0;
@@ -52,40 +54,38 @@ nav ul{
   display: flex;
   justify-content: space-between;
   width: 100%;
-  
 }
 
-nav ul li{
+nav ul li {
   list-style-type: none;
   width: 20%;
   position: relative;
   background-color: #38444d;
 }
 
-nav a{
+nav a {
   color: orange;
   text-decoration: none;
 }
-nav li ul{
+nav li ul {
   display: none;
   position: absolute;
   top: 100%;
   left: 0;
 }
-nav li:hover ul{
+nav li:hover ul {
   display: block;
 }
-.logos{
+.logos {
   position: fixed;
   right: 0;
   bottom: 0;
-  display:flex;
-
+  display: flex;
 }
 
-.logos img{
+.logos img {
   width: 36px;
 }
-nav li li{
+nav li li {
   width: 100%;
 }

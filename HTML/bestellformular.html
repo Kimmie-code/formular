@@ -5,66 +5,95 @@
     <title>Bestellformular</title>
     <link rel="stylesheet" href="../CSS/styles.css" />
   </head>
+
   <body class="bestari">
-    <h1 class="peter">Kisten und Co KG</h1>
-    <nav class="Navi">
-      <ul>
-        <li><a href="../HTML/index.html">Home</a></li>
-        <li><a href="../HTML/Produkte.html">Produkte</a></li>
-        <li><a href="../HTML/preise.html">Preise</a></li>
-        <li><a href="../HTML/bestellformular.html">Bestelle Jetzt!!!</a></li>
-      </ul>
-    </nav>
-    <h3>Bestellen Sie jetzt ihre Kisten:</h3>
-    <form action="mailto:" method="Get" enctype="text/plain">
-      <fieldset class="Anschrift">
-        <legend>Anschrift</legend>
-        <label for="name">Name: </label>
-        <input class="antext" type="text" name="Name" />
-        <br />
-        <label for="Vorname">Vorname:</label>
-        <input class="antext" type="text" name="Vorname" />
-        <br />
-        <label for="Straße und Hausnummer">Straße und Hausnummer:</label>
-        <input class="antext" type="text" name="Straße und Hausnummer" />
-        <br />
-        <label for="PLZ und Ort">PLZ und Ort:</label>
-        <input class="antext" type="text" name="PLZ und Ort" />
-      </fieldset>
-      <fieldset>
-        <legend>Produktwahl</legend>
-        <label for="Material"> Material</label>
-        <select name="Material" id="Material">
-          <option value="Holz">Holz</option>
-          <option value="Kunst">Kunststoff</option>
-          <option value="Karton">Karton</option>
-          <option value="Geschenk">Geschenk</option>
-        </select>
-        <label for="Stück">Stückzahl</label>
-        <input type="number" name="Stück" id="Stück">
-        <label for="Hinweis">Hinweis</label>
-        <textarea name="Hinweis" id="Hinweis" rows="1" cols="47"></textarea>
-      </fieldset>
-      <fieldset>
-        <legend>Versandunternehmen</legend>
-        <input type="radio" name="unternehmen" id="DHL" value="DHL">
-        <label for="DHL">DHL</label>
-        <input type="radio" name="unternehmen" id="DPD" value="DPD">
-        <label for="DPD">DPD</label>
-        <input type="radio" name="unternehmen" id="Hermes" value="Hermes">
-        <label for="Hermes">Hermes</label>
-      </fieldset>
-      <fieldset>
-        <legend>Newsletter</legend>
-        <input type="checkbox" name="News" id="News">
-        <label for="News">Ja, ich möchte über neue Schachteln informiert werden</label>
-      </fieldset>
-      <input type="submit" name="bestellen" value="Verbindlich bestellen"><input type="reset" name="zurücksetzen" value="Eingabe zurücksetzen">
-    </form>
-    <div class="logos">
-      <img src="../Bilderordner/facebook-brands-solid-full.svg" alt="Facebook Logo">
-      <img src="../Bilderordner/instagram-brands-solid-full.svg" alt="Instagram Logo">
-      <img src="../Bilderordner/pinterest-brands-solid-full.svg" alt="Pinterest Logo">
+    <div class="wrapper">
+      <h1 class="peter">Kisten und Co KG</h1>
+      <nav class="Navi">
+        <ul>
+          <li><a href="../HTML/index.html">Home</a></li>
+          <li><a href="../HTML/Produkte.html">Produkte</a></li>
+          <li><a href="../HTML/preise.html">Preise</a></li>
+          <li><a href="../HTML/bestellformular.html">Bestelle Jetzt!!!</a></li>
+          <li>
+            <a href="#">Kontakt</a>
+            <ul>
+              <li><a href="#">Anfahrt</a></li>
+              <li><a href="#">Impressum</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <h3>Bestellen Sie jetzt ihre Kisten:</h3>
+      <form action="mailto:" method="Get" enctype="text/plain">
+        <fieldset class="Anschrift">
+          <legend>Anschrift</legend>
+          <label for="name">Name: </label>
+          <input class="antext" type="text" name="Name" />
+          <br />
+          <label for="Vorname">Vorname:</label>
+          <input class="antext" type="text" name="Vorname" />
+          <br />
+          <label for="Straße und Hausnummer">Straße und Hausnummer:</label>
+          <input class="antext" type="text" name="Straße und Hausnummer" />
+          <br />
+          <label for="PLZ und Ort">PLZ und Ort:</label>
+          <input class="antext" type="text" name="PLZ und Ort" />
+        </fieldset>
+        <fieldset>
+          <legend>Produktwahl</legend>
+          <label for="Material"> Material</label>
+          <select name="Material" id="Material">
+            <option value="Holz">Holz</option>
+            <option value="Kunst">Kunststoff</option>
+            <option value="Karton">Karton</option>
+            <option value="Geschenk">Geschenk</option>
+          </select>
+          <label for="Stück">Stückzahl</label>
+          <input type="number" name="Stück" id="Stück" />
+          <label for="Hinweis">Hinweis</label>
+          <textarea name="Hinweis" id="Hinweis" rows="1" cols="47"></textarea>
+        </fieldset>
+        <fieldset>
+          <legend>Versandunternehmen</legend>
+          <input type="radio" name="unternehmen" id="DHL" value="DHL" />
+          <label for="DHL">DHL</label>
+          <input type="radio" name="unternehmen" id="DPD" value="DPD" />
+          <label for="DPD">DPD</label>
+          <input type="radio" name="unternehmen" id="Hermes" value="Hermes" />
+          <label for="Hermes">Hermes</label>
+        </fieldset>
+        <fieldset>
+          <legend>Newsletter</legend>
+          <input type="checkbox" name="News" id="News" />
+          <label for="News"
+            >Ja, ich möchte über neue Schachteln informiert werden</label
+          >
+        </fieldset>
+        <input
+          type="submit"
+          name="bestellen"
+          value="Verbindlich bestellen"
+        /><input
+          type="reset"
+          name="zurücksetzen"
+          value="Eingabe zurücksetzen"
+        />
+      </form>
+      <div class="logos">
+        <img
+          src="../Bilderordner/facebook-brands-solid-full.svg"
+          alt="Facebook Logo"
+        />
+        <img
+          src="../Bilderordner/instagram-brands-solid-full.svg"
+          alt="Instagram Logo"
+        />
+        <img
+          src="../Bilderordner/pinterest-brands-solid-full.svg"
+          alt="Pinterest Logo"
+        />
+      </div>
     </div>
   </body>
 </html>
